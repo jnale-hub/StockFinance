@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block main %}
+<table class="table table-hover table-striped table-left">
+    <thead>
+        <tr>
+            <th scope="col">Symbols</th>
+            <th scope="col">Name</th>
+            <th scope="col">Shares</th>
+            <th scope="col">Price</th>
+            <th scope="col">TOTAL</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in stocks %}
+        <tr>
+            <td>{{ row.symbol }}</td>
+            <td>{{ row.name }}</td>
+            <td>{{ row.shares }}</td>
+            <td>{{ row.price | usd }}</td>
+            <td>{{ row.total | usd }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+    <tfooter>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th scope="1">Cash</th>
+            <th scope="1">{{ cash | usd }}</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <th scope="1">TOTAL</th>
+            <th scope="1">{{ total | usd }}</th>
+        </tr>
+    </tfooter>
+</table>
+{% endblock %}
