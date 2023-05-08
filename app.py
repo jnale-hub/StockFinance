@@ -15,9 +15,6 @@ app = Flask(__name__)
 # Ensure templates are auto-reloaded
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
-os.environ['API_KEY'] = 'pk_844e29122827468bba5c1ecd2fe313a6'
-
-
 # Ensure responses aren't cached
 @app.after_request
 def after_request(response):
