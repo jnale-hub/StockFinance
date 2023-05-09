@@ -17,7 +17,7 @@ Real time actual stock prices are retrieved from [IEX](https://iexcloud.io).
 
 
 ## Summary
-Finance is a web app that allows logged-in users to "buy" and "sell" stocks (with pretend money) as well as look up real stock quotes fetched from IEX API. Users can also view their stock portfolio transaction history.
+CyptoFinance is a web app that allows logged-in users to "buy" and "sell" stocks (with pretend money) as well as look up real stock quotes fetched from IEX API. Users can also view their stock portfolio transaction history.
 
 ## How to Run
 1. Clone this repository, navigate to the project and type the following commands:
