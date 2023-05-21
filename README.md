@@ -1,4 +1,4 @@
-# CryptoFinance
+# StockFinance
 
 A website which users can “buy” and “sell” real time stocks.
 
@@ -6,7 +6,7 @@ Real time actual stock prices are retrieved from [IEX](https://iexcloud.io).
 
 [View the full assignment description on CS50's OpenCourseWare](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 
-<img src="cryptoFinance.png" alt="crypto_finance">
+<img src="StockFinance.png" alt="crypto_finance">
 
 ## Technologies
 * Python
